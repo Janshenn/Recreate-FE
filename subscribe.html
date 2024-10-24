@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Lifestyle Vibes</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="container-fluid">
+      <ul>
+        <li><strong>Lifestyle Vibes</strong></li>
+      </ul>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="subscribe.html" role="button">Subscribe</a></li>
+      </ul>
+    </nav>
+
+<section aria-label="Subscribe to updates" class="subscribe-section">
+    <div class="container subscribe-container">
+      <article>
+        <hgroup>
+          <h2>Join Our Community</h2>
+          <h3>Stay informed on the latest lifestyle trends and updates</h3>
+        </hgroup>
+        <form id="subscribeForm" class="grid">
+          <input
+            type="text"
+            id="firstname"
+            name="firstname"
+            placeholder="Your First Name"
+            aria-label="First Name"
+            required
+          />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Your Email Address"
+            aria-label="Email"
+            required
+          />
+          <button type="submit">
+            Subscribe Now
+          </button>
+        </form>
+        <p id="subscribeMessage" class="message"></p>
+      </article>
+    </div>
+  </section>
+  
+  <footer>
+    <div class="footer-top">
+      <!-- Column 1: Quick Links -->
+      <div class="footer-column">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="subscribe.html">Subscribe</a></li>
+        </ul>
+      </div>
+  
+      <!-- Column 2: Contact Info -->
+      <div class="footer-column">
+        <h4>Contact Us</h4>
+        <ul>
+          <li><a href="+62 82111002233">+62 82111002233</a></li>
+          <li><a href="lifestyle@gmail.com">lifestyle@gmail.com</a></li>
+          <li><a href="#">Universitas Tarumanagara, Jakarta, Indonesia</a></li>
+        </ul>
+      </div>
+  
+    <!-- Social Media Links -->
+    <div class="social-links">
+      <a href="https://facebook.com" aria-label="Facebook" target="_blank"><i class="fab fa-facebook"></i></a>
+      <a href="https://twitter.com" aria-label="Twitter" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://instagram.com" aria-label="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://linkedin.com" aria-label="LinkedIn" target="_blank"><i class="fab fa-linkedin"></i></a>
+    </div>
+  
+      <!-- Copyright -->
+      <small>
+        &copy; 2024 @LifestyleWebsite | 
+        <a href="/privacy-policy">Privacy Policy</a> | 
+        <a href="/terms">Terms of Service</a>
+      </small>
+    </footer>
